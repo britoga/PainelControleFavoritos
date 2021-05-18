@@ -6,4 +6,4 @@ Pode ser muito util com a criação de favoritos do seu navegador, deixando essa
 Também pode ser utilizado como um norte para novos funcionarios, colocando o nome do problema no botão e ao clicar você é jogado em um link ensinando a resolver o problema(Usado assim na empresa aonde implantei).
 
 
-Criado para treinar meus conhecimentos em HTML, CSS e JavaScript.
+Criado em 17/05/2021 para treinar meus conhecimentos em HTML, CSS e JavaScript.
