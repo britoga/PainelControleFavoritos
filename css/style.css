@@ -1,0 +1,94 @@
+body {
+	text-align: center;
+	font-family: Arial;
+	background-color: #333333;
+	background-image: url("https://www.transparenttextures.com/patterns/dark-dot.png"); 
+}
+
+.buttons a {
+	width: 264px;
+	height: 40px;
+	margin-top: 22px;
+	margin-left: 25%;
+	left: -66px;
+	display: block;
+	position: relative;
+	line-height: 40px;
+	background-color: #bfbfbf;
+	border-radius: 32px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .25), 0 2px 3px rgba(53, 21, 21, 0.1);
+	text-decoration: none;
+	font-weight: bolder;
+	color: #555;
+}
+
+.buttons a:hover {
+	color: #000;
+}
+
+.buttons a:active {
+	top: 1px;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#bfbfbf), to(#f6f6f6)); 
+	background-image: -webkit-linear-gradient(top, #bfbfbf, #f6f6f6);
+	background-image: -moz-linear-gradient(top, #bfbfbf, #f6f6f6); 
+	background-image: -ms-linear-gradient(top, #bfbfbf, #f6f6f6); 
+	background-image: -o-linear-gradient(top, #bfbfbf, #f6f6f6);
+	background-image: linear-gradient(top, #bfbfbf, #f6f6f6);
+}
+
+.buttons a::before{
+	content: '';
+	position: absolute;
+	z-index: -1;
+	top: -8px;
+	right: -8px;
+	bottom: -8px;
+	left: -8px;
+	background-color: #bfbfbf;
+	-moz-border-radius: 140px;
+	-webkit-border-radius: 140px;
+	border-radius: 140px;
+	opacity: 0.5;		
+}
+
+.buttons a:active::before {
+	top: -9px;
+}
+ 
+.buttons a:hover::before {
+	opacity: 1;
+}
+ 
+.buttons a.rss:hover::before {
+	background-color: #ff3333;
+}
+
+.buttons1 {
+	width: 264px;
+	margin-top: 70px;
+	margin-left: 30%;
+	left: -133px;
+	display: block;
+	position: absolute;
+	line-height: 40px;
+}
+
+.buttons2 {
+	width: 264px;
+	margin-top: 70px;
+	margin-left: 50%;
+	left: -133px;
+	display: block;
+	position: absolute;
+	line-height: 40px;
+}
+
+.buttons3 {
+	width: 264px;
+	margin-top: 70px;
+	margin-left: 70%;
+	left: -133px;
+	display: block;
+	position: absolute;
+	line-height: 40px;
+}
